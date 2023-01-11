@@ -16,6 +16,7 @@ body {
   --btn-background-color: #ff5959;
   --btn-text-color: #ffffff;
   --main-section-title: #121212;
+  --main-section-description-centered: #707070;
 }
 
 /* Buttons */
@@ -85,14 +86,144 @@ main {
   justify-content: center;
   align-items: center;
   padding: 130px 0;
+  gap: 0;
 }
-.main-section-heading {
+.main-section-title {
   font-weight: 700;
   font-size: 45px;
   line-height: 54px;
   text-align: center;
   color: var(--main-section-title);
 }
+.main-section-description-centered {
+  margin: 0;
+  max-width: 690px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--main-section-description-centered);
+}
 /* Donate Today */
+.donate-today-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donate-today-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.donate-today-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.donate-today-tk-card {
+  height: 124px;
+  width: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: #fafafa;
+  border-radius: 5px;
+}
+.special-card {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+.donate-today-tk-card-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #707070;
+}
+.donate-today-input {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #b3b3b3;
+}
 
+/* Donate Plan */
+.our-donate-plan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-donate-plan-title{
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+.our-donate-plan-cards{
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.our-donate-plan-card {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 22px 54px;
+  border-radius: 5px;
+}
+.donate-card-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+.donate-card-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+.donate-card-3 {
+  background: #fff4d6;
+}
+.odpc-icon{
+  width: 58px;
+  height: auto;
+}
+.odpc-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+}
+.odpc-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+/* They need us and Their lives depend on us */
+.double-container{
+  display: flex;
+  gap: 85px;
+  justify-content: center;
+  align-items: center;
+}
+.double-section-description-centered {
+  margin: 0;
+  max-width: 690px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--main-section-description-centered);
+}
+.double-container-img{
+  width: 456px;
+  height: 478px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 /* ------------------------------------  */

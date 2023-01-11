@@ -1,0 +1,98 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Colors */
+
+:root {
+  --h1-color: #ffffff;
+  --p-color: #ffffff;
+  --btn-background-color: #ff5959;
+  --btn-text-color: #ffffff;
+  --main-section-title: #121212;
+}
+
+/* Buttons */
+
+.primary-btn {
+  padding: 16px 20px;
+  background: var(--btn-background-color);
+  border-radius: 5px;
+  color: var(--btn-text-color);
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Header Sections */
+
+.header {
+  background-image: linear-gradient(
+      360deg,
+      #121212 0%,
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url(../images/donation2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 670px;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-section {
+  max-width: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-title {
+  max-width: 825px;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  color: var(--h1-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.header-description {
+  max-width: 630px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--p-color);
+  padding: 0;
+  margin: 0 auto 30px;
+}
+
+/* Main Sections */
+/* ------------------------------------  */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 0;
+}
+.main-section-heading {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: var(--main-section-title);
+}
+/* Donate Today */
+
+/* ------------------------------------  */

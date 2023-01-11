@@ -158,17 +158,17 @@ main {
 }
 
 /* Donate Plan */
-.our-donate-plan{
+.our-donate-plan {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.our-donate-plan-title{
+.our-donate-plan-title {
   margin-top: 130px;
   margin-bottom: 20px;
 }
-.our-donate-plan-cards{
+.our-donate-plan-cards {
   display: flex;
   gap: 24px;
   margin-top: 50px;
@@ -188,7 +188,7 @@ main {
 .donate-card-3 {
   background: #fff4d6;
 }
-.odpc-icon{
+.odpc-icon {
   width: 58px;
   height: auto;
 }
@@ -205,11 +205,22 @@ main {
   color: #707070;
 }
 /* They need us and Their lives depend on us */
-.double-container{
+/* #right {
+  float: right;
+} */
+.double-container {
   display: flex;
   gap: 85px;
   justify-content: center;
   align-items: center;
+  margin-top: 140px;
+}
+.double-section-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: var(--main-section-title);
+  margin-bottom: 20px;
 }
 .double-section-description-centered {
   margin: 0;
@@ -217,13 +228,77 @@ main {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  text-align: center;
   color: var(--main-section-description-centered);
+  margin-bottom: 20px;
 }
-.double-container-img{
+.double-container-img {
   width: 456px;
   height: 478px;
   object-fit: cover;
   border-radius: 10px;
 }
+/* get my updates */
+.my-updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-updates-title {
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+.emailsub {
+  margin-top: 50px;
+  width: 810px;
+  height: 200px;
+  background-color: #fff4d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-email {
+  /* height: 48px; */
+  border-radius: 5px 0 0 5px;
+  background-color: #d9d9d9;
+  padding: 16px 218px 16px 18px;
+  font-size: 20px;
+  border: none;
+}
+.sub-btn {
+  padding: 16px 20px;
+  background: var(--btn-background-color);
+  border-radius: 0 5px 5px 0;
+  color: var(--btn-text-color);
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
 /* ------------------------------------  */
+/* footer */
+footer {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0b0d17;
+}
+footer h2 {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+footer p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
